@@ -39,4 +39,4 @@ resource "aws_autoscaling_group" "two"{
    load_balancers = [aws_elb.myelb.name]
    vpc_zone_identifier = [aws_subnet.mysubnet1.id, aws_subnet.mysubnet2.id]
 }
-![image](https://github.com/user-attachments/assets/6fee03a5-4074-4197-acf1-ca47dbc7efdf)
+

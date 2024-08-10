@@ -1,1 +1,4 @@
-# Terraform_LB-ASG
+provider "aws" {
+region = "us-east-1"
+}
+
